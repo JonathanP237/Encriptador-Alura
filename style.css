@@ -36,6 +36,7 @@ section{
     .text-area:focus{
         outline: none;
     }
+    
 
 .mensaje{
     background: white;
@@ -53,11 +54,18 @@ section{
     resize: none;
     cursor: default;   
     width: 25%; 
-    height: 80%;
+    height: 70%;
 }
 
 .mensaje:focus{
     outline: none;
+}
+
+.mensaje_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin-top: 20vh;
 }
 
 .botones{
@@ -93,9 +101,9 @@ section{
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 265px;
-    margin-top: 680px;
-    position:  fixed;
+    margin-left: 285px;
+    margin-top: 30vh;
+    position:  absolute;
     width: 17%;
 }
 
