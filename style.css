@@ -15,16 +15,21 @@
 main{
     display: flex;
     margin-bottom: 50px;
-    margin-left: 70px;
+    margin-left: 2%;
+}
+
+section{
+    width: 50%;
 }
 
 .text-area{
     border: none;
     color: #0A3871;
-    margin-top: 80px;
-    margin-left: 150px;
+    margin-top: 10%;
+    margin-left: 15%;
     text-transform: lowercase;
     resize: none;
+    width: auto;
 }
 ::placeholder{ color: #0A3871}
     .text-area:focus{
@@ -43,8 +48,10 @@ main{
     margin-left: 200px;
     margin-top: 15px;
     padding-left: 20px;
+    position: fixed;
     resize: none;
-    cursor: default;    
+    cursor: default;   
+    width: auto; 
 }
 
 .mensaje:focus{
@@ -54,7 +61,7 @@ main{
 .botones{
     display: flex;
     margin-top: 18px;    
-    padding-left: 120px;
+    padding-left: 10%;
 }
 
 .btn-desencriptar{
